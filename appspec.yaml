@@ -5,21 +5,6 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "version: 0.0
-Resources:
-  - TargetService:
-      Type: AWS::ECS::Service
-      Properties:
-        TaskDefinition: <TASK_DEFINITION>
-        LoadBalancerInfo:
-          ContainerName: "sample-website"
-          ContainerPort: 80version: 0.0
-Resources:
-  - TargetService:
-      Type: AWS::ECS::Service
-      Properties:
-        TaskDefinition: <TASK_DEFINITION>
-        LoadBalancerInfo:
           ContainerName: "sample-website"
           ContainerPort: 80sample-website"
           ContainerPort: 80
